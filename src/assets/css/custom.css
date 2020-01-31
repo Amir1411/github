@@ -1,0 +1,31 @@
+html, body {overflow-x: hidden;font-family: 'Roboto', sans-serif;}
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;background-color: #F5F5F5;}
+::-webkit-scrollbar{width: 12px;background-color: #F5F5F5;}
+::-webkit-scrollbar-thumb{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #ddd;}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+.bg-purple { background-color: #000; }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+.font-size-16 {font-size: 16px;}
+
+.position-relative {position: relative;}
+.sidebar-content {overflow: auto;max-height: 90vh;height: 90vh;}
+.sidebar-search {position: sticky;top: 0px;}
+.width-100 {width: 100%;}
+.card {background: #fff;
+ border-radius: 7px;
+ box-shadow: 0 2px 7px 1px #ddd;}
+.card-footer {background: transparent;border: none;}
+
+.main-content-placeholder {text-align: center;margin-top: 30vh;}
+
+.repo-list {max-height: 90vh;overflow: auto;}
+.repo-list .card {max-height: 150px;min-height: 150px;}
+.repo-language-color {position: relative;top: 1px;display: inline-block;width: 12px;height: 12px;border-radius: 50%;margin-right: 5px;}
+.repo-list .card h3 {font-size: 16px;}
+.repo-list .card p {font-size: 14px;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;}
+.cursor-pointer {cursor: pointer;}
